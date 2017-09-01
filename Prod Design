@@ -1,0 +1,7 @@
+This package accepts a dataset 'data' with a dependant variable y and a set of independant X {x:x is a categorical/numeric variable}
+
+The package is to:
+Return a dataset data_cat with y and categorical (all numeric fields converted to bins) X
+Test for each X IV, WoE and significance against y
+Reduces the set of X as per user defined IV and WoE Cut-Offs
+Plot the WoE trends for user/package selected variables
